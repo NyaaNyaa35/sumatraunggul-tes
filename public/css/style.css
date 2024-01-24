@@ -1,0 +1,83 @@
+.container{
+    padding : 20px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom : 100px;
+}
+.m-t-50{
+    margin-top : 50px;
+}
+.top-title{
+    font-size : 24px;
+    font-weight : bold;
+    text-align: center;
+}
+.table{
+    width : 100%;
+    border-collapse: collapse;
+    border : 1px solid black;
+}
+
+.table,th,td {
+    border : 1px solid black;
+}
+
+.form-insert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button-submit{
+    border : 1px solid black;
+}
+
+.form-insert-transaksi{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    width : 30%;
+    margin-left: 40px;
+}
+
+.delete-button {
+    min-width : 70px;
+    border : 1px solid red;
+    color : white;
+    font-weight: bold;
+    background-color : red;
+    border-radius: 8px;
+    transition: ease 0.3s;
+}
+
+.delete-button:hover{
+    cursor: pointer;
+}
+
+.delete-button:active{
+    transform: scale(0.95);
+}
+.edit-button {
+    min-width : 70px;
+    border : 1px solid green;
+    color : white;
+    font-weight: bold;
+    background-color : green;
+    border-radius: 8px;
+    transition: ease 0.3s;
+}
+
+.edit-button:hover{
+    cursor: pointer;
+}
+
+.edit-button:active{
+    transform: scale(0.95);
+}
